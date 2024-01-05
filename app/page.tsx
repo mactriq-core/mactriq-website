@@ -2,7 +2,10 @@ import React from "react";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faArrowRight } from '@fortawesome/free-solid-svg-icons';
 
+
 export default function Home() {
+
+
   return (
     <React.Fragment>
     <section className="bg-gradient-to-r from-[#2A3E84] via-[#080B2A] to-[#2A3E84] text-white body-font">
@@ -26,7 +29,7 @@ export default function Home() {
   </section>  
 
 
-    <section className="bg-gradient-to-r from-[#2A3E84] via-[#080B2A] to-[#2A3E84] text-white body-font sm:px-40">
+    <section className="bg-gradient-to-r from-[#2A3E84] via-[#080B2A] to-[#2A3E84] text-white body-font sm:px-40" id="discover">
       <div className="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
         <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0">
           <img className="object-cover object-center rounded" alt="hero" src="./circle.png"/>
@@ -46,7 +49,7 @@ export default function Home() {
 
 
 
-    <section className="bg-gradient-to-r from-[#2A3E84] via-[#080B2A] to-[#2A3E84] text-white body-font">
+    <section className="bg-gradient-to-r from-[#2A3E84] via-[#080B2A] to-[#2A3E84] text-white body-font" id="marketplace">
       <div className="container sm:px-24 px-5 py-24 mx-auto">
         <div className="flex flex-col text-center w-full mb-20">
           <h1 className="sm:text-3xl text-2xl font-bold title-font mb-4">Heading</h1>
@@ -125,6 +128,96 @@ export default function Home() {
         </div>
       </div>
     </section>
+
+
+
+
+
+
+    <section className="bg-gradient-to-r from-[#2A3E84] via-[#080B2A] to-[#2A3E84] text-white body-font" id="work">
+      <div className="container sm:px-24 px-5 py-24 mx-auto flex flex-wrap">
+        <div className="flex flex-col text-center w-full mb-20">
+          <h1 className="sm:text-3xl text-2xl font-bold title-font mb-4">Heading</h1>
+          <p className="lg:w-2/3 mx-auto leading-relaxed text-base">Lorem ipsum dolor sit amet consectetur. Posuere felis consectetur a metus urna velit nam bibendum.</p>
+        </div>
+        <div className="flex flex-wrap -m-4">
+
+          <div className="p-4 lg:w-1/2 md:w-full">
+            <div className="flex border-2 rounded-lg border-t-[#15BFFD] border-l-[#15BFFD] border-r-[#15BFFD] border-b-[#9C37FD] border p-8 sm:flex-row flex-col">
+              <div className="flex-grow">
+                <div className="flex flex-col text-center w-full">
+                  <h1 className="text-lg title-font mb-4">Heading</h1>
+                </div>
+                <h2 className="text-3xl title-font font-bold mb-3">Header</h2>
+                <p className="leading-relaxed text-base">Lorem ipsum dolor sit amet consectetur. Elit massa erat vitae non semper quis. Morbi sed aliquet donec  facilisis. Senectus eget.</p>
+              </div>
+            </div>
+          </div>
+
+          <div className="p-4 lg:w-1/2 md:w-full">
+            <div className="flex border-2 rounded-lg border-t-[#15BFFD] border-l-[#15BFFD] border-r-[#15BFFD] border-b-[#9C37FD] border p-8 sm:flex-row flex-col">
+              <div className="flex-grow">
+                <div className="flex flex-col text-center w-full">
+                  <h1 className="text-lg title-font mb-4">Heading</h1>
+                </div>
+                <h2 className="text-3xl title-font font-bold mb-3">Header</h2>
+                <p className="leading-relaxed text-base">Lorem ipsum dolor sit amet consectetur. Elit massa erat vitae non semper quis. Morbi sed aliquet donec  facilisis. Senectus eget.</p>
+              </div>
+            </div>
+          </div>
+
+          <div className="p-4 lg:w-1/2 md:w-full">
+            <div className="flex border-2 rounded-lg border-t-[#15BFFD] border-l-[#15BFFD] border-r-[#15BFFD] border-b-[#9C37FD] border p-8 sm:flex-row flex-col">
+              <div className="flex-grow">
+                <div className="flex flex-col text-center w-full">
+                  <h1 className="text-lg title-font mb-4">Heading</h1>
+                </div>
+                <h2 className="text-3xl title-font font-bold mb-3">Header</h2>
+                <p className="leading-relaxed text-base">Lorem ipsum dolor sit amet consectetur. Elit massa erat vitae non semper quis. Morbi sed aliquet donec  facilisis. Senectus eget.</p>
+              </div>
+            </div>
+          </div>
+
+          <div className="p-4 lg:w-1/2 md:w-full">
+            <div className="flex border-2 rounded-lg border-t-[#15BFFD] border-l-[#15BFFD] border-r-[#15BFFD] border-b-[#9C37FD] border p-8 sm:flex-row flex-col">
+              <div className="flex-grow">
+                <div className="flex flex-col text-center w-full">
+                  <h1 className="text-lg title-font mb-4">Heading</h1>
+                </div>
+                <h2 className="text-3xl title-font font-bold mb-3">Header</h2>
+                <p className="leading-relaxed text-base">Lorem ipsum dolor sit amet consectetur. Elit massa erat vitae non semper quis. Morbi sed aliquet donec  facilisis. Senectus eget.</p>
+              </div>
+            </div>
+          </div>
+
+          <div className="p-4 lg:w-1/2 md:w-full">
+            <div className="flex border-2 rounded-lg border-t-[#15BFFD] border-l-[#15BFFD] border-r-[#15BFFD] border-b-[#9C37FD] border p-8 sm:flex-row flex-col">
+              <div className="flex-grow">
+                <div className="flex flex-col text-center w-full">
+                  <h1 className="text-lg title-font mb-4">Heading</h1>
+                </div>
+                <h2 className="text-3xl title-font font-bold mb-3">Header</h2>
+                <p className="leading-relaxed text-base">Lorem ipsum dolor sit amet consectetur. Elit massa erat vitae non semper quis. Morbi sed aliquet donec  facilisis. Senectus eget.</p>
+              </div>
+            </div>
+          </div>
+
+          <div className="p-4 lg:w-1/2 md:w-full">
+            <div className="flex border-2 rounded-lg border-t-[#15BFFD] border-l-[#15BFFD] border-r-[#15BFFD] border-b-[#9C37FD] border p-8 sm:flex-row flex-col">
+              <div className="flex-grow">
+                <div className="flex flex-col text-center w-full">
+                  <h1 className="text-lg title-font mb-4">Heading</h1>
+                </div>
+                <h2 className="text-3xl title-font font-bold mb-3">Header</h2>
+                <p className="leading-relaxed text-base">Lorem ipsum dolor sit amet consectetur. Elit massa erat vitae non semper quis. Morbi sed aliquet donec  facilisis. Senectus eget.</p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
 
 
 

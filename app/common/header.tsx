@@ -7,18 +7,32 @@ import { XMarkIcon } from "@heroicons/react/20/solid";
 import { Fragment } from "react";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faMagnifyingGlass } from '@fortawesome/free-solid-svg-icons';
+import React, { useState } from 'react';
+import Modal from '../components/Modal';
 
 
 const Header = () => {
+
+  const [isModalOpen, setIsModalOpen] = useState(false);
+
+  const openModal = () => {
+    setIsModalOpen(true);
+  };
+
+  const closeModal = () => {
+    setIsModalOpen(false);
+  };
+
+
   return (
       <Popover className={"mx-auto flex items-center sm:px-28 px-6 py-2 h-24 bg-gradient-to-r from-[#2A3E84] via-[#080B2A] to-[#2A3E84]"}>
         {/* <img src="" width="50" height="50"></img> */}
-        <h1 className="font-bold text-white text-2xl">Logo</h1>
+        <a href="/"><h1 className="font-bold text-white text-2xl">Logo</h1></a>
         <div className="grow">
           <div className="hidden sm:flex items-center md:gap-14 text-white">
-            <Link href="" className="ml-20">Discover</Link>
-            <Link href="">Marketplace <span className="bg-[#15BFFD] text-xs px-1 py-1 rounded">PRO</span></Link>
-            <Link href="">How we Work</Link>
+            <Link href="#discover" className="nav-link ml-20">Discover</Link>
+            <Link href="#marketplace"className="nav-link">Marketplace <span className="bg-[#15BFFD] text-xs px-1 py-1 rounded">PRO</span></Link>
+            <Link href="#work" className="nav-link">How we Work</Link>
           </div>
         </div>
 
@@ -45,7 +59,7 @@ const Header = () => {
           <div className="rounded-lg bg-gradient-to-r from-[#2A3E84] via-[#080B2A] to-[#2A3E84] shadow-lg ring-1 ring-black ring-opaity-5 divide-y-2 divide-gray-50">
             <div className="px-5 pt-5 pb-6">
               <div className="flex item-center justify-between">
-                <h1 className="font-bold text-white text-2xl">Logo</h1>
+                <a href="/"><h1 className="font-bold text-white text-2xl">Logo</h1></a>
                 <div className="-mr-2">
                 <Popover.Button className="inline-flex items-center justify-center rounded-md bg-white p-2 text-gray-400 hover:bg-gray-100 hover:text-gray-500
                 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-[#2A3E84]">
@@ -57,13 +71,14 @@ const Header = () => {
 
               <div className="mt-6">
                 <nav className="grid gap-y-8 text-white">
-                  <Link className="focus:outline-none focus:ring-1 focus:ring-inset focus:ring-gray-100 px-2" href="">Discover</Link>
-                  <Link className="focus:outline-none focus:ring-1 focus:ring-inset focus:ring-gray-100 px-2" href="">Marketplace <span className="bg-[#15BFFD] text-xs px-1 py-1 rounded">PRO</span></Link>  
-                  <Link className="focus:outline-none focus:ring-1 focus:ring-inset focus:ring-gray-100 px-2" href="">How we Work</Link>  
+                  <Link className="focus:outline-none focus:ring-1 focus:ring-inset focus:ring-gray-100 px-2 nav-link " href="#discover">Discover</Link>
+                  <Link className="focus:outline-none focus:ring-1 focus:ring-inset focus:ring-gray-100 px-2 nav-link" href="#marketplace">Marketplace <span className="bg-[#15BFFD] text-xs px-1 py-1 rounded">PRO</span></Link>  
+                  <Link className="focus:outline-none focus:ring-1 focus:ring-inset focus:ring-gray-100 px-2 nav-link" href="#work">How we Work</Link>  
                 </nav>
               </div>
               <div className="mt-6 flex-col item-center gap-2">
-              <button type="button" className="text-[#15BFFD] rounded-full border border-[#15BFFD] py-2 px-5 leading-6 bg-[#2A3E84]"><Link href="">Contact Us</Link></button>
+              <button type="button" onClick={openModal} className="text-[#15BFFD] rounded-full border border-[#15BFFD] py-2 px-5 leading-6 bg-[#2A3E84]"><Link href="">Contact Us</Link></button>
+              <Modal isOpen={isModalOpen} onClose={closeModal} />
               </div>
             </div>
           </div>
@@ -72,7 +87,8 @@ const Header = () => {
   
         <div className="hidden sm:block">
           <FontAwesomeIcon icon={faMagnifyingGlass} className="text-white mr-5"/>
-          <button type="button" className="text-[#15BFFD] rounded-full border border-[#15BFFD] py-2 px-5 leading-6 bg-[#2A3E84]"><Link href="">Contact Us</Link></button>
+          <button onClick={openModal} type="button" className="text-[#15BFFD] rounded-full border border-[#15BFFD] py-2 px-5 leading-6 bg-[#2A3E84]"><Link href="">Contact Us</Link></button>
+          <Modal isOpen={isModalOpen} onClose={closeModal} />
         </div>
       </Popover>
   );
