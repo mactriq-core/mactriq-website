@@ -77,7 +77,7 @@ const Header = () => {
                 </nav>
               </div>
               <div className="mt-6 flex-col item-center gap-2">
-              <button type="button" onClick={openModal} className="text-[#15BFFD] rounded-full border border-[#15BFFD] py-2 px-5 leading-6 bg-[#2A3E84]"><Link href="">Contact Us</Link></button>
+              <button onClick={openModal} type="button" className="text-white bg-[#15BFFD] border border-[#15BFFD] hover:text-[#15BFFD] hover:bg-transparent rounded-full py-2 px-5 leading-6"><Link href="">Contact Us</Link></button>
               <Modal isOpen={isModalOpen} onClose={closeModal} />
               </div>
             </div>
@@ -97,7 +97,7 @@ const Header = () => {
               </form>
           &nbsp;
           {/* <FontAwesomeIcon icon={faMagnifyingGlass} className="text-white mr-5"/> */}
-          <button onClick={openModal} type="button" className="text-[#15BFFD] rounded-full border border-[#15BFFD] py-2 px-5 leading-6 bg-[#2A3E84]"><Link href="">Contact Us</Link></button>
+          <button onClick={openModal} type="button" className="text-white bg-[#15BFFD] border border-[#15BFFD] hover:text-[#15BFFD] hover:bg-transparent rounded-full py-2 px-5 leading-6"><Link href="">Contact Us</Link></button>
           <Modal isOpen={isModalOpen} onClose={closeModal} />
           </div>
         </div>

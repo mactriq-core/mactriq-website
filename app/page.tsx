@@ -16,8 +16,8 @@ export default function Home() {
         <img src="./Vector.png"></img>
         <p className="mb-8 leading-relaxed mt-5">Lorem ipsum dolor sit amet consectetur. <br/>Odio amet enim suspendisse in varius. In volutpat amet ac.</p>
         <div className="flex justify-center">
-          <button className="inline-flex text-white bg-[#15BFFD] border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded-full text-lg">Button 1</button>
-          <button className="ml-4 inline-flex text-[#15BFFD] bg-transparent border-0 py-2 px-6 focus:outline-none hover:bg-gray-200 rounded text-lg">Button 2
+          <button className="inline-flex text-white bg-[#15BFFD] py-2 px-6 focus:outline-none border border-[#15BFFD] hover:text-[#15BFFD] hover:bg-transparent rounded-full text-lg">Button 1</button>
+          <button className="ml-4 inline-flex text-[#15BFFD] bg-transparent border-0 py-2 px-6 focus:outline-none rounded-full text-lg">Button 2
           <FontAwesomeIcon icon={faArrowRight} className="test-[#15BFFD] py-1 ml-2"/></button>
         </div>
         <p className="text-lg font-bold mt-8">Lorem ipsum dolor sit</p>
@@ -41,7 +41,7 @@ export default function Home() {
           <p className="mb-8 leading-relaxed">Lorem ipsum dolor sit amet consectetur. Congue eu arcu neque um semper. Eros suspendisse varius enim ultrices  isque et quis ctumst. Feugiat amet velit faucibus amet </p>
           <p className="mb-8 leading-relaxed">Eu feugiat adipiscing viverrfeugiat. Mollis tellus</p>
           <div className="flex justify-center">
-            <button className="inline-flex text-white bg-[#15BFFD] border-0 py-2 px-6 focus:outline-none rounded-full text-lg">Button</button>
+            <button className="inline-flex text-white bg-[#15BFFD] border border-[#15BFFD] hover:text-[#15BFFD] hover:bg-transparent py-2 px-6 focus:outline-none rounded-full text-lg">Button</button>
           </div>
         </div>
       </div>
@@ -62,13 +62,13 @@ export default function Home() {
               <div className="flex items-center flex-wrap">
                 <h2 className="text-lg title-font font-bold text-[#15BFFD]">SUPPORTING TEXT</h2>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                 <span className="text-gray-400 inline-flex items-center lg:ml-auto md:ml-0 ml-auto leading-none text-sm border-gray-200">
-                <button className="inline-flex text-white bg-[#15BFFD] border-0 py-2 px-6 focus:outline-none rounded-full text-lg">Button</button>
+                <button className="inline-flex text-white bg-[#15BFFD] border border-[#15BFFD] hover:text-[#15BFFD] hover:bg-transparent py-2 px-6 focus:outline-none rounded-full text-lg">Button</button>
                 </span>
               </div>
               <div className="sm:mt-72 ">Info</div>
               <div className="flex items-center flex-wrap">
                 <div className="flex items-center">
-                  <div className="w-8 h-8 mr-3 inline-flex items-center justify-center rounded-full bg-indigo-500 text-white flex-shrink-0">
+                  <div className="w-8 h-8 mr-3 inline-flex items-center justify-center rounded-full text-white flex-shrink-0">
                     <img src="./Ellipse.png"></img>
                   </div>
                   <h2 className="text-lg title-font text-[#B4C7CE]">Text</h2>
@@ -85,13 +85,13 @@ export default function Home() {
               <div className="flex items-center flex-wrap">
                 <h2 className="text-lg title-font font-bold text-[#15BFFD]">SUPPORTING TEXT</h2>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                 <span className="text-gray-400 inline-flex items-center lg:ml-auto md:ml-0 ml-auto leading-none text-sm border-gray-200">
-                <button className="inline-flex text-white bg-[#15BFFD] border-0 py-2 px-6 focus:outline-none rounded-full text-lg">Button</button>
+                <button className="inline-flex text-white bg-[#15BFFD] border border-[#15BFFD] hover:text-[#15BFFD] hover:bg-transparent py-2 px-6 focus:outline-none rounded-full text-lg">Button</button>
                 </span>
               </div>
               <div className="sm:mt-72 ">Info</div>
               <div className="flex items-center flex-wrap">
                 <div className="flex items-center">
-                  <div className="w-8 h-8 mr-3 inline-flex items-center justify-center rounded-full bg-indigo-500 text-white flex-shrink-0">
+                  <div className="w-8 h-8 mr-3 inline-flex items-center justify-center rounded-full text-white flex-shrink-0">
                     <img src="./Ellipse.png"></img>
                   </div>
                   <h2 className="text-lg title-font text-[#B4C7CE]">Text</h2>
@@ -108,13 +108,13 @@ export default function Home() {
               <div className="flex items-center flex-wrap">
                 <h2 className="text-lg title-font font-bold text-[#15BFFD]">SUPPORTING TEXT</h2>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                 <span className="text-gray-400 inline-flex items-center lg:ml-auto md:ml-0 ml-auto leading-none text-sm border-gray-200">
-                <button className="inline-flex text-white bg-[#15BFFD] border-0 py-2 px-6 focus:outline-none rounded-full text-lg">Button</button>
+                <button className="inline-flex text-white bg-[#15BFFD] border border-[#15BFFD] hover:text-[#15BFFD] hover:bg-transparent py-2 px-6 focus:outline-none rounded-full text-lg">Button</button>
                 </span>
               </div>
               <div className="sm:mt-72 ">Info</div>
               <div className="flex items-center flex-wrap">
                 <div className="flex items-center">
-                  <div className="w-8 h-8 mr-3 inline-flex items-center justify-center rounded-full bg-indigo-500 text-white flex-shrink-0">
+                  <div className="w-8 h-8 mr-3 inline-flex items-center justify-center rounded-full text-white flex-shrink-0">
                     <img src="./Ellipse.png"></img>
                   </div>
                   <h2 className="text-lg title-font text-[#B4C7CE]">Text</h2>
@@ -232,7 +232,7 @@ export default function Home() {
           <div className="flex rounded-lg h-full border-t-[#15BFFD] border-l-[#15BFFD] border-r-[#15BFFD] border-b-[#9C37FD] border p-5 flex-col">
             <div className="text-[#B4C7CE] mb-1">Created for</div>
             <div className="flex items-center mb-3">
-              <div className="w-8 h-8 mr-3 inline-flex items-center justify-center rounded-full bg-indigo-500 text-white flex-shrink-0">
+              <div className="w-8 h-8 mr-3 inline-flex items-center justify-center rounded-full text-white flex-shrink-0">
                 <img src="./Ellipse.png"></img>
               </div>
               <h2 className="text-lg title-font font-bold text-[#15BFFD]">Company name</h2>
@@ -252,7 +252,7 @@ export default function Home() {
           <div className="flex rounded-lg h-full border-t-[#15BFFD] border-l-[#15BFFD] border-r-[#15BFFD] border-b-[#9C37FD] border p-5 flex-col">
             <div className="text-[#B4C7CE] mb-1">Created for</div>
             <div className="flex items-center mb-3">
-              <div className="w-8 h-8 mr-3 inline-flex items-center justify-center rounded-full bg-indigo-500 text-white flex-shrink-0">
+              <div className="w-8 h-8 mr-3 inline-flex items-center justify-center rounded-full text-white flex-shrink-0">
                 <img src="./Ellipse.png"></img>
               </div>
               <h2 className="text-lg title-font font-bold text-[#15BFFD]">Company name</h2>
@@ -272,7 +272,7 @@ export default function Home() {
           <div className="flex rounded-lg h-full border-t-[#15BFFD] border-l-[#15BFFD] border-r-[#15BFFD] border-b-[#9C37FD] border p-5 flex-col">
             <div className="text-[#B4C7CE] mb-1">Created for</div>
             <div className="flex items-center mb-3">
-              <div className="w-8 h-8 mr-3 inline-flex items-center justify-center rounded-full bg-indigo-500 text-white flex-shrink-0">
+              <div className="w-8 h-8 mr-3 inline-flex items-center justify-center rounded-full text-white flex-shrink-0">
                 <img src="./Ellipse.png"></img>
               </div>
               <h2 className="text-lg title-font font-bold text-[#15BFFD]">Company name</h2>
@@ -290,7 +290,7 @@ export default function Home() {
         </div>
       </div>
       <div className="flex justify-center mt-10">
-        <button className="inline-flex text-[#15BFFD] bg-[#080B2A] border border-[#15BFFD] py-2 px-6 focus:outline-none rounded-full text-lg">Button</button>
+         <button className="inline-flex text-white bg-[#15BFFD] border border-[#15BFFD] hover:text-[#15BFFD] hover:bg-transparent py-2 px-6 focus:outline-none rounded-full text-lg">Button</button>
       </div>
     </div>
     </section>
@@ -396,7 +396,7 @@ export default function Home() {
         </div>
       </div>
       <div className="flex justify-center mt-10">
-        <button className="inline-flex text-[#15BFFD] bg-[#080B2A] border border-[#15BFFD] py-2 px-6 focus:outline-none rounded-full text-lg">Button</button>
+         <button className="inline-flex text-white bg-[#15BFFD] border border-[#15BFFD] hover:text-[#15BFFD] hover:bg-transparent py-2 px-6 focus:outline-none rounded-full text-lg">Button</button>
       </div>
     </div>
     </section>
